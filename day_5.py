@@ -20,7 +20,7 @@ x_values = data[:, :, 0]
 y_values = data[:, :, 1]
 
 # Create drawing board
-board = np.zeros([x_values.max() + 1, y_values.max() + 1], dtype=np.int8)
+board = np.zeros([x_values.max() + 1, y_values.max() + 1], dtype=np.int16)
 
 # For each line, add +1 to board at interpolation points between endpoints
 for x_value, y_value in zip(x_values, y_values):
