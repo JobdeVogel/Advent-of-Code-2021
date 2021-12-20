@@ -33,4 +33,5 @@ for x_value, y_value in zip(x_values, y_values):
 
 # Calculate amount of values above 1
 result = board[board > 1].size
+
 print(result)
